@@ -1,0 +1,81 @@
+.footer {
+  width: auto;
+  height: 426px;
+  overflow: hidden;
+  background-color: #444; }
+  .footer .footer-con {
+    width: 1200px;
+    height: 426px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .footer .footer-con .footer-wrap {
+      padding-left: 25px;
+      height: 426px;
+      margin: 0 auto; }
+      .footer .footer-con .footer-wrap .footer-list {
+        padding-top: 30px;
+        overflow: hidden; }
+        .footer .footer-con .footer-wrap .footer-list dl {
+          float: left;
+          margin: 0 80px; }
+          .footer .footer-con .footer-wrap .footer-list dl dt {
+            margin-bottom: 10px;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff; }
+          .footer .footer-con .footer-wrap .footer-list dl dd {
+            margin-bottom: 2px; }
+            .footer .footer-con .footer-wrap .footer-list dl dd a {
+              font-size: 12px;
+              color: #fff; }
+            .footer .footer-con .footer-wrap .footer-list dl dd a:hover {
+              color: #ccc; }
+            .footer .footer-con .footer-wrap .footer-list dl dd img {
+              width: 119px;
+              height: 162px;
+              margin-left: -25px; }
+      .footer .footer-con .footer-wrap .footer-link {
+        padding: 30px;
+        text-align: center;
+        color: #999; }
+        .footer .footer-con .footer-wrap .footer-link .alink {
+          width: 1050px;
+          margin: 0 auto;
+          text-align: center;
+          word-spacing: -5px; }
+          .footer .footer-con .footer-wrap .footer-link .alink a {
+            display: inline-block;
+            padding: 0 8px;
+            font-size: 12px;
+            text-align: center;
+            color: #999; }
+          .footer .footer-con .footer-wrap .footer-link .alink a:hover {
+            color: #ccc; }
+        .footer .footer-con .footer-wrap .footer-link .copyright {
+          font-size: 12px;
+          margin-top: 10px; }
+        .footer .footer-con .footer-wrap .footer-link p {
+          font-size: 12px; }
+          .footer .footer-con .footer-wrap .footer-link p a {
+            color: #999; }
+          .footer .footer-con .footer-wrap .footer-link p a:hover {
+            color: #ccc; }
+        .footer .footer-con .footer-wrap .footer-link .about {
+          height: 20px;
+          margin-left: 450px; }
+          .footer .footer-con .footer-wrap .footer-link .about a {
+            float: left;
+            color: #999;
+            font-size: 12px; }
+            .footer .footer-con .footer-wrap .footer-link .about a img {
+              margin-top: 5px;
+              width: 20px;
+              height: 20px;
+              margin-right: 4px;
+              float: left; }
+            .footer .footer-con .footer-wrap .footer-link .about a p {
+              margin-top: 5px;
+              float: left; }
+          .footer .footer-con .footer-wrap .footer-link .about a:hover {
+            color: #ccc; }

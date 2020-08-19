@@ -1,0 +1,20 @@
+[
+    {"small":["../img/details/1/01.jpg","../img/details/1/02.jpg","../img/details/1/03.jpg","../img/details/1/04.jpg","../img/details/1/05.jpg"]},
+    {"max":["../img/details/1/b01.jpg","../img/details/1/b02.jpg","../img/details/1/b03.jpg","../img/details/1/b04.jpg","../img/details/1/b05.jpg"]},
+    {"details":
+        [
+            {
+                "tith":"巴拉巴拉童装儿童坎肩女童春季2020新款针织吊带上衣小童宝宝背心",
+                "titp":"百搭毛背心，搭配小衬衫",
+                "price1":"¥ 119.00",
+                "price2":"¥ 45.90",
+                "em1":" 50",
+                "em2":" 141",
+                "em3":" 22",
+                "src":["../img/details/1/04.jpg"],
+                "height":["90cm","100cm","110cm","120cm","130cm"],
+                "kucun":"库存238件"
+            }
+        ]
+    }
+]

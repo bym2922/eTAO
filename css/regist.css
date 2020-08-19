@@ -1,0 +1,226 @@
+body, html, ul, li, h1, h2, h3, h4, h5, h6, a, p, img, em, p, span, dl, dt, dd {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-style: normal; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #F7F6F5; }
+
+.header-nav {
+  width: auto;
+  height: 38px;
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #ebebeb; }
+  .header-nav .header-nav-con {
+    margin: 0 auto;
+    width: 1190px;
+    height: 38px; }
+    .header-nav .header-nav-con .header-nav-left {
+      float: left;
+      margin-left: 24px;
+      color: #666;
+      font-size: 12px;
+      line-height: 38px; }
+    .header-nav .header-nav-con .header-nav-right {
+      float: left;
+      margin-left: 260px; }
+      .header-nav .header-nav-con .header-nav-right p {
+        float: left;
+        width: 128px;
+        height: 38px;
+        color: #666;
+        font-size: 12px;
+        line-height: 38px; }
+        .header-nav .header-nav-con .header-nav-right p .ale-log {
+          color: #FB3434; }
+        .header-nav .header-nav-con .header-nav-right p .ale-reg {
+          color: #333; }
+        .header-nav .header-nav-con .header-nav-right p .ale-reg:hover {
+          color: #FB3434; }
+      .header-nav .header-nav-con .header-nav-right ul {
+        height: 38px;
+        float: left;
+        line-height: 38px; }
+        .header-nav .header-nav-con .header-nav-right ul li {
+          float: left;
+          width: 80px;
+          height: 38px;
+          text-align: center; }
+          .header-nav .header-nav-con .header-nav-right ul li span {
+            color: #ebebeb;
+            font-size: 12px;
+            margin-right: 20px; }
+          .header-nav .header-nav-con .header-nav-right ul li a {
+            font-size: 12px;
+            text-align: center;
+            color: #666; }
+
+.logo {
+  width: auto;
+  height: 110px; }
+  .logo .logo-con {
+    margin: 0 auto;
+    width: 1190px;
+    height: 110px;
+    overflow: hidden; }
+    .logo .logo-con a {
+      width: 310px;
+      height: 110px;
+      float: left; }
+      .logo .logo-con a img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .logo .logo-con h2 {
+      float: left;
+      color: #333;
+      font-weight: normal;
+      line-height: 90px; }
+
+.step {
+  width: auto;
+  height: 46px; }
+  .step .step-con {
+    width: 1200px;
+    height: 46px;
+    margin: 0 auto;
+    border-bottom: 2px solid #eee;
+    line-height: 46px;
+    position: relative; }
+    .step .step-con ul {
+      width: 720px;
+      height: 46px;
+      margin: 0 auto;
+      overflow: hidden; }
+      .step .step-con ul .line {
+        height: 2px;
+        width: 150px;
+        background-color: #FB3434;
+        position: absolute;
+        top: 46px;
+        left: 255px;
+        z-index: 20; }
+      .step .step-con ul li {
+        float: left;
+        font-size: 18px;
+        color: #999;
+        padding: 0 20px;
+        margin-left: 10px; }
+        .step .step-con ul li span {
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          background-color: #ddd;
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+          line-height: 25px;
+          text-align: center;
+          border-radius: 50%;
+          margin-right: 5px; }
+      .step .step-con ul .active {
+        color: #333; }
+        .step .step-con ul .active span {
+          background-color: #FB3434; }
+
+.main {
+  width: auto; }
+  .main .main-con {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto; }
+    .main .main-con form {
+      padding: 20px;
+      text-align: center;
+      margin: 50px 350px;
+      width: 400px;
+      height: 200px; }
+      .main .main-con form input {
+        width: 270px;
+        height: 30px;
+        border: 1px solid #ccc; }
+      .main .main-con form span {
+        margin-top: 5px;
+        float: left;
+        width: 80px;
+        text-align: right;
+        color: #444; }
+      .main .main-con form .check {
+        width: 274px;
+        height: 30px;
+        background-color: #ddd;
+        margin-left: 103px;
+        position: relative; }
+        .main .main-con form .check .box {
+          width: 40px;
+          height: 28px;
+          font-size: 14px;
+          color: #999;
+          line-height: 28px;
+          cursor: move;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 1px solid #ccc;
+          background-color: white; }
+        .main .main-con form .check p {
+          font-size: 12px;
+          text-align: center;
+          line-height: 30px; }
+      .main .main-con form .btn {
+        width: 180px;
+        height: 36px;
+        background-color: #ddd;
+        border-radius: 5px;
+        line-height: 36px;
+        font-size: 18px;
+        color: #666;
+        margin-top: 30px;
+        margin-left: 103px;
+        pointer-events: none;
+        cursor: pointer; }
+      .main .main-con form a {
+        display: block;
+        width: 110px;
+        height: 36px;
+        margin-top: 15px;
+        line-height: 36px;
+        font-size: 12px;
+        color: #ff5b20;
+        margin-left: 103px;
+        text-align: left; }
+      .main .main-con form a:hover {
+        text-decoration: underline; }
+
+.foot {
+  width: auto;
+  margin-top: 20px; }
+  .foot .foot-con {
+    width: 1200px;
+    margin: 0 auto; }
+    .foot .foot-con .link {
+      width: 1200px;
+      height: 45px;
+      line-height: 45px;
+      overflow: hidden;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc; }
+    .foot .foot-con a {
+      font-size: 12px;
+      color: #666;
+      line-height: 36px;
+      padding: 0 5px; }
+    .foot .foot-con span {
+      font-size: 12px;
+      color: #999;
+      margin-left: 20px; }
+    .foot .foot-con a:hover {
+      color: #ff5b20; }
+    .foot .foot-con p {
+      font-size: 12px;
+      color: #999; }
